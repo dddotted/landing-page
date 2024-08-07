@@ -1,0 +1,143 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.l-outer {
+  padding: 0 20px;
+}
+.l-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+}
+
+.l-header {
+  background-color: #1f2937;
+  padding: 0 20px;
+}
+.l-header__inner {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.l-header__logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+.l-header__nav-list {
+  display: flex;
+}
+.l-header__nav-item {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+}
+
+.l-footer {
+  margin-top: 80px;
+  background-color: #1f2937;
+}
+.l-footer__inner {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.l-footer__copy {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+}
+
+.p-hero {
+  background-color: #1f2937;
+}
+.p-hero__inner {
+  display: flex;
+  padding: 40px 0;
+}
+.p-hero__ttl {
+  color: #f9faf8;
+  font-weight: 800;
+  font-size: 48px;
+}
+.p-hero__txt {
+  margin-top: 20px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.p-hero__btn-wrap {
+  margin-top: 10px;
+}
+.p-hero__btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #3882f6;
+}
+@media screen and (max-width: 768px) {
+}
+
+.p-info {
+  margin-top: 40px;
+}
+.p-info__ttl {
+  color: #1f2937;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: center;
+}
+.p-info__content {
+  margin-top: 40px;
+}
+.p-info__item-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.p-info__item-img img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+}
+
+.p-quote {
+  margin-top: 80px;
+  background-color: #e5e7eb;
+}
+.p-quote__inner {
+  padding: 40px 0;
+}
+.p-quote__txt {
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+}
+.p-quote__cite {
+  display: block;
+  margin-top: 20px;
+  font-style:normal;
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+}
+
+.p-contact {
+  margin-top: 100px;
+}
+.p-contact__row {
+  display: flex;
+  background-color: #3882f6;
+  color: #fff;
+  padding: 80px 60px;
+}
+@media screen and (max-width: 768px) {
+}
